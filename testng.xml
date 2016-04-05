@@ -1,0 +1,8 @@
+<suite name="TestNGSuiteName">
+	<test name="testname">
+		<classes>
+			<class name="demo.selenium.kiwi.TestLogin" />
+			<class name="demo.selenium.kiwi.TestOrder" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47069" started-at="2016-03-04T05:17:58Z" finished-at="2016-03-04T05:18:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47069" started-at="2016-03-04T05:17:58Z" finished-at="2016-03-04T05:18:45Z">
+      <class name="demo.selenium.kiwi.TestLogin">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:demo.selenium.kiwi.TestLogin@39ba5a14]" name="beforeSuite" is-config="true" duration-ms="11" started-at="2016-03-04T13:17:58Z" finished-at="2016-03-04T13:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:demo.selenium.kiwi.TestLogin@39ba5a14]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-03-04T13:17:58Z" finished-at="2016-03-04T13:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:demo.selenium.kiwi.TestLogin@39ba5a14]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-03-04T13:17:58Z" finished-at="2016-03-04T13:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:demo.selenium.kiwi.TestLogin@39ba5a14]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-03-04T13:17:58Z" finished-at="2016-03-04T13:17:58Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Unable to bind to locking port 7054 within 45000 ms
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'Num30-PC', ip: '10.13.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'Num30-PC', ip: '10.13.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.internal.SocketLock.lock(SocketLock.java:99)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:90)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at demo.selenium.kiwi.TestLogin.beforeMethod(TestLogin.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="loginkiwi()[pri:0, instance:demo.selenium.kiwi.TestLogin@39ba5a14]" name="loginkiwi" duration-ms="1" started-at="2016-03-04T13:18:45Z" finished-at="2016-03-04T13:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginkiwi -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:demo.selenium.kiwi.TestLogin@39ba5a14]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-03-04T13:18:45Z" finished-at="2016-03-04T13:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:demo.selenium.kiwi.TestLogin@39ba5a14]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-03-04T13:18:45Z" finished-at="2016-03-04T13:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:demo.selenium.kiwi.TestLogin@39ba5a14]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-03-04T13:18:45Z" finished-at="2016-03-04T13:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:demo.selenium.kiwi.TestLogin@39ba5a14]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-03-04T13:18:45Z" finished-at="2016-03-04T13:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- demo.selenium.kiwi.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
